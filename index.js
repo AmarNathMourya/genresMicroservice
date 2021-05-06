@@ -10,7 +10,7 @@ app.use(bodyParser.json())
 // Connect to MongoDB
 mongoose
   .connect(
-    'mongodb://mongo:27017/genres-services',
+    'mongodb+srv://mongoUser:admin@cedimed.mc0eg.mongodb.net/genres?retryWrites=true&w=majority',
     { useNewUrlParser: true }
   )
   .then(() => console.log('MongoDB Connected'))
