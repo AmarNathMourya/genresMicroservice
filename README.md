@@ -22,3 +22,6 @@ Params -> name
  url - BaseURL + /api/fetchGenres/:name?
 
  Params is optional
+
+ # To Run test case
+ npm run test
